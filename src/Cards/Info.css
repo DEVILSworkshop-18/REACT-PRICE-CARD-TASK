@@ -1,0 +1,38 @@
+body{
+    background-color: #31ACFC;
+}
+.buy>button{
+    padding: 10px 100px;
+    border-radius: 20px;   
+    background-color: #4BA2FF;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+.buy>button:hover{
+    background-color:#007AFF ;
+}
+.buy{
+    align-self: center;
+    margin-bottom: 10px;
+}
+.breakLine{
+    width: 75%;
+    align-self: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    margin: 30px;
+    transition: transform 0.2s ease-in-out;
+}
+.cards:hover{
+    transform: scale(1.03);
+}
+.mainCard{
+    margin-top: 70px;
+}
