@@ -16,10 +16,10 @@ const App = () => {
       stautsReport: "Monthly Status Report",
       type:"FREE",
       rate:"$0/Month",
-      proIcon: "fa-solid fa-regular fa-x",
-      supIcon: "fa-solid fa-regular fa-x",
-      domIcon: "fa-solid fa-regular fa-x",
-      repIcon: "fa-solid fa-regular fa-x"
+      proIcon: "fa-solid fa-regular fa-x text-muted",
+      supIcon: "fa-solid fa-regular fa-x text-muted",
+      domIcon: "fa-solid fa-regular fa-x text-muted",
+      repIcon: "fa-solid fa-regular fa-x text-muted"
     },
     {
       user: "5 User",
@@ -34,8 +34,8 @@ const App = () => {
       rate:"$9/Month",
       proIcon: "fa-solid fa-check",
       supIcon: "fa-solid fa-check",
-      domIcon: "fa-solid fa-regular fa-x",
-      repIcon: "fa-solid fa-regular fa-x"
+      domIcon: "fa-solid fa-regular fa-x text-muted",
+      repIcon: "fa-solid fa-regular fa-x text-muted"
     },
     {
       user: "Unlimited User",
